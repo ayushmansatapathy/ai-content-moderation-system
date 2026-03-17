@@ -12,7 +12,7 @@ comment = st.text_area("Enter a comment")
 if st.button("Detect Comment"):
 
     if comment.strip() == "":
-        st.warning("Please enter a comment")
+        st.warning("Please Enter a comment")
 
     else:
 
